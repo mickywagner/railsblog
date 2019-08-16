@@ -1,0 +1,17 @@
+<h1>All Tags</h1>
+
+<ol id="tags">
+    <% @tags.each do |tag| %>
+        <li>
+        <%= link_to tag.name, tag_path(tag)%>
+        <%= link_to "delete tag", tag_path(tag), 
+        method: :delete,
+        data: {confirm: "Delete tag?" } %>
+         </li>
+    <% end %>
+</ol>
+
+<%= link_to "<<Back to Articles List", articles_path %>
+
+
+
