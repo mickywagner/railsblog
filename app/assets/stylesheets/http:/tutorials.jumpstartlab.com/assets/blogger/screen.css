@@ -66,7 +66,8 @@ td {
     font-style: inherit;
     font-size: 100%;
     font-family: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 body {
@@ -761,4 +762,11 @@ div.field_with_errors label {
 
 div.field_with_errors input {
     border: 3px solid red
+}
+
+img {
+    width: 100%;
+    border: 2px solid  #6c7c9a;;
+    border-radius: 10px;
+    margin: 10px 0px
 }
