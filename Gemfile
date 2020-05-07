@@ -69,4 +69,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "paperclip", "~> 6.1"
 
-gem "sorcery", "~> 0.14.0"
+gem "sorcery", "~> 0.15.0"
